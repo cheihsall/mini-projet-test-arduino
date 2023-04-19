@@ -13,20 +13,20 @@ const char* ssid = "Flybox-BB4A-guest";
 const char* password = "orange123";
 
 // Initialize Telegram BOT
-#define BOTtoken "5991425659:AAFEAch85BgYkjsFNcJ5Rk_m7e_118yhBkQ"  // your Bot Token (Get from Botfather)
+#define BOTtoken "**********"  // your Bot Token (Get from Botfather)
 
 // Use @myidbot to find out the chat ID of an individual or a group
 // Also note that you need to click "start" on a bot before it can
 // message you
-#define CHAT_ID "953174704"
+#define CHAT_ID "*******"
 
 #ifdef ESP8266
   X509List cert(TELEGRAM_CERTIFICATE_ROOT);
 #endif
 
 
-String phoneNumber = "+221764121691";
-String apiKey = "5907422";
+String phoneNumber = "*******";
+String apiKey = "*******";
 
 void sendMessage(String message){
 

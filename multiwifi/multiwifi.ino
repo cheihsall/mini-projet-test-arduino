@@ -20,9 +20,9 @@ void setup(){
   WiFi.mode(WIFI_STA);
   
   // Add list of wifi networks
-  wifiMulti.addAP("itel A25 Pr", "123456789");
-  wifiMulti.addAP("Flybox-BB4A-guest", "orange123");
-  wifiMulti.addAP("Livebox-Fibre-901A", "Adefnipa@2022");
+  wifiMulti.addAP("itel A25 Pr", "****");
+  wifiMulti.addAP("Flybox-BB4A-guest", "****");
+  wifiMulti.addAP("Livebox-Fibre-901A", "****");
 
   // WiFi.scanNetworks will return the number of networks found
   int n = WiFi.scanNetworks();

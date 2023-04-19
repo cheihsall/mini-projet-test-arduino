@@ -13,10 +13,10 @@
 #include <HTTPClient.h>
 
 const char* ssid = "itel A25 Pr";
-const char* password1 = "123456789";
+const char* password1 = "*******";
 
 // Domain Name with full URL Path for HTTP POST Request
-const char* serverName = "http://192.168.43.10:2000/tech/post/";
+const char* serverName = "http://192.168.*.*:2000/tech/post/";
 // Service API Key
 String prenom = "cheikh";
 String nom = "sall";
